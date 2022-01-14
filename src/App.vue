@@ -7,6 +7,7 @@
       :widthCell="120"
       :reservations="reservations"
       :reservationNew.sync="reservationNew"
+      :dateSelected="dateSelected"
       @reservationMove="onReservationMove"
       @reservationResize="onReservationResize"
     />
@@ -17,10 +18,11 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue, Watch } from "vue-property-decorator";
+import { Component, Vue } from "vue-property-decorator";
 import CalendarGrid from "./components/CalendarGrid.vue";
 import roomsHelper from "./helper/room.json";
 import reservationHelper from "./helper/reservation.json";
+import { DateTime } from "ts-luxon";
 
 @Component({
   components: { CalendarGrid },
@@ -33,14 +35,22 @@ export default class App extends Vue {
   reservationEdit: any = null;
   reservationResize: any = null;
 
+  dateSelected = DateTime.fromObject({
+    hour: 8,
+    minute: 10,
+    day: 10,
+    month: 1,
+    year: 2022,
+  });
+
   onReservationMove(reservation: any): void {
-    alert("RESERVATION MOVE");
+    // alert("RESERVATION MOVE");
     console.log("RESERVATION MOVE", reservation);
     this.reservationEdit = reservation;
   }
 
   onReservationResize(reservation: any): void {
-    alert("RESERVATION RESIZE");
+    // alert("RESERVATION RESIZE");
     console.log("RESERVATION RESIZE", reservation);
     this.reservationResize = reservation;
   }

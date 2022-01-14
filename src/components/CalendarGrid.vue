@@ -82,15 +82,10 @@ export default class CalendarGrid extends Vue {
   dateStart!: any;
   @Prop({ default: 70 }) minHeight!: number;
   @Prop({ default: 100 }) widthCell!: number;
+  @PropSync("date", { default: DateTime.now }) dateSelected!: DateTime;
   @PropSync("reservationNew") reservationCreate!: any;
 
-  dateSelected = DateTime.local(2022, 1, 10, 8, 10, 23)
-    .setLocale("es")
-    .setZone("America/Lima");
-
   disabledInteraction: boolean = false;
-
-  // dateSelected = DateTime.now().setLocale("es").setZone("America/Lima");
 
   get idComponent(): string {
     return this.id + "-" + randomString();

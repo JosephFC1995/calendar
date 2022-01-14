@@ -54,14 +54,7 @@
 </template>
 
 <script lang="ts">
-import {
-  Component,
-  Prop,
-  PropSync,
-  Ref,
-  Vue,
-  Watch,
-} from "vue-property-decorator";
+import { Component, Prop, PropSync, Ref, Vue } from "vue-property-decorator";
 import CalendarGridReservationItem from "@/components/Calendar/CalendarGridReservationItem.vue";
 import { DateTime } from "ts-luxon";
 
@@ -218,6 +211,13 @@ export default class CalendarGridReservation extends Vue {
           }
         }
 
+        this.limitNewBookingIfNeeded(
+          reservationTargetBackup,
+          DateTime.fromMillis(this.reservationTarget.starts_at).toMillis(),
+          DateTime.fromMillis(this.reservationTarget.ends_at).toMillis(),
+          this.getRoomByPy(this.movingTarget.y)
+        );
+
         reservationTargetBackup.clone = true;
         reservationTargetBackup.move = false;
         reservationTargetBackup.resize = true;
@@ -230,15 +230,30 @@ export default class CalendarGridReservation extends Vue {
       const movePixelX = x - this.reservationTarget.offsetX;
       const movePixelY = y - this.reservationTarget.offsetY;
 
+      const movingFloatingBooking = Object.assign({}, this.reservationTarget);
+      movingFloatingBooking.id = "movingFloatingBookingId";
+      movingFloatingBooking.top = movePixelY;
+      movingFloatingBooking.left = movePixelX;
+
       const newStartDate: DateTime = this.getDateByPx(movePixelX);
       const diffDates =
         this.reservationTarget.ends_at - this.reservationTarget.starts_at;
+
+      const newBooking = JSON.parse(JSON.stringify(this.reservationTarget));
+      newBooking.id = "movingBooking";
+      newBooking.starts_at = newStartDate.toMillis();
+      newBooking.ends_at = newStartDate.toMillis() + diffDates;
+      newBooking.room.id = this.getRoomByPy(movePixelY + 20);
+
+      if (this.isMovingBookingOverlapping(newBooking)) {
+        return;
+      }
 
       const newEndDate: number = newStartDate.toMillis() + diffDates;
 
       const limitStartDate = this.dateSelected.set({
         hour: this.dateStart.hour,
-        minute: this.dateStart.minute - 15,
+        minute: this.dateStart.minute,
       });
 
       const limitEndDate = this.dateSelected.set({
@@ -246,14 +261,13 @@ export default class CalendarGridReservation extends Vue {
         minute: 0,
       });
 
+      this.reservationTarget.room.id = this.getRoomByPy(movePixelY);
       if (
-        newStartDate.toMillis() >= limitStartDate.toMillis() ||
-        newStartDate.toMillis() <=
-          limitEndDate.toMillis() - newStartDate.toMillis()
+        newStartDate.toMillis() >= limitStartDate.toMillis() &&
+        newEndDate <= limitEndDate.toMillis()
       ) {
         this.reservationTarget.starts_at = newStartDate.toMillis();
         this.reservationTarget.ends_at = newEndDate;
-        this.reservationTarget.room.id = this.getRoomByPy(movePixelY);
         this.reservationTarget.clone = true;
         this.reservationTarget.move = true;
         this.reservationTarget.resize = false;
@@ -293,9 +307,112 @@ export default class CalendarGridReservation extends Vue {
     if (newBookingBack.starts_at === newBookingBack.ends_at) {
     }
 
+    this.limitNewBookingIfNeeded(
+      newBookingBack,
+      initialStartD.toMillis(),
+      initialEndD.toMillis(),
+      this.getRoomByPy(this.movingTarget.y)
+    );
+
     this.reservationCreateTarget = newBookingBack;
 
     return;
+  }
+
+  limitNewBookingIfNeeded(
+    newBooking: any,
+    startDate: any,
+    endDate: any,
+    roomID: any
+  ): void {
+    let limitStart = this.startDayLimit;
+    let limitEnd = this.endDayLimit;
+
+    for (const reservation in this.reservations) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      if (this.reservations[reservation].room.id === roomID) {
+        if (startDate >= this.reservations[reservation].ends_at) {
+          const newStartLimit = this.reservations[reservation].ends_at;
+          if (!limitStart) {
+            limitStart = newStartLimit;
+          }
+          if (limitStart && newStartLimit > limitStart) {
+            limitStart = newStartLimit;
+          }
+        }
+        if (endDate <= this.reservations[reservation].starts_at) {
+          const newEndLimit = this.reservations[reservation].starts_at;
+
+          if (limitEnd === null || (limitEnd && newEndLimit < limitEnd)) {
+            limitEnd = newEndLimit;
+          }
+        }
+      }
+    }
+
+    if (limitStart && newBooking.starts_at < limitStart) {
+      newBooking.starts_at = limitStart;
+    }
+
+    if (limitEnd && newBooking.ends_at > limitEnd) {
+      newBooking.ends_at = limitEnd;
+    }
+  }
+
+  isMovingBookingOverlapping(newMovingBooking: any): boolean {
+    if (
+      newMovingBooking.starts_at < this.startDayLimit ||
+      newMovingBooking.ends_at > this.endDayLimit ||
+      newMovingBooking.room.id == null
+    ) {
+      return true;
+    }
+
+    for (const reservation in this.reservations) {
+      if (
+        newMovingBooking.room.id !== this.reservations[reservation].room.id ||
+        this.reservationTarget.id === this.reservations[reservation].id
+      ) {
+        continue;
+      }
+
+      if (
+        newMovingBooking.starts_at >=
+          this.reservations[reservation].starts_at &&
+        newMovingBooking.starts_at < this.reservations[reservation].ends_at
+      ) {
+        return true;
+      }
+      if (
+        newMovingBooking.ends_at > this.reservations[reservation].starts_at &&
+        newMovingBooking.ends_at <= this.reservations[reservation].ends_at
+      ) {
+        return true;
+      }
+      if (
+        newMovingBooking.starts_at < this.reservations[reservation].starts_at &&
+        newMovingBooking.ends_at > this.reservations[reservation].ends_at
+      ) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  get startDayLimit(): number {
+    const a = this.dateSelected.set({
+      hour: this.dateStart.hour,
+      minute: 0,
+      second: 0,
+      millisecond: 0,
+    });
+    return a.toMillis();
+  }
+
+  get endDayLimit(): number {
+    const endDayL = this.dateSelected.plus({ day: 1 });
+    return endDayL.toMillis();
   }
 
   getRoomByPy(y: number): string {
