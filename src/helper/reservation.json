@@ -1,0 +1,1028 @@
+[
+  {
+    "id": "rr_D5Ftw35xvvLnUqRi",
+    "secret": false,
+    "internal": true,
+    "created": true,
+    "deleted": false,
+    "room": {
+      "public": true,
+      "flexible": true,
+      "id": "room_kpmg_11",
+      "name": "Sala 1",
+      "capacity": 4,
+      "floor": 26,
+      "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+      "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+      "location": {
+        "city": {
+          "name": "Lima",
+          "timeZone": "America/Lima"
+        },
+        "translations": [],
+        "id": "lo_ALbnXaaV4ccOYJ3A",
+        "short_name": "KPMG",
+        "description": null,
+        "name": "KPMG",
+        "friendly_url": null,
+        "meta_description": null,
+        "meta_title": null,
+        "geo": {
+          "address": "Av. Javier Prado Este Nº 444",
+          "longitude": -77.0286172,
+          "latitude": -12.0915944
+        },
+        "district": "San Isidro",
+        "_district": {
+          "id": "san-isidro",
+          "name": "San Isidro"
+        },
+        "province": null,
+        "_province": {
+          "id": 1,
+          "name": "Lima",
+          "department": {
+            "id": 1,
+            "name": "Lima",
+            "country": {
+              "id": 1,
+              "name": "Perú",
+              "countryCode": "pe",
+              "nationality": null,
+              "phoneAvailable": true,
+              "countryCallingCode": 51,
+              "file": null,
+              "countryEmailSubjectModel": {
+                "id": 1,
+                "subject": "Bienvenido a Comunal"
+              },
+              "comunal": true
+            },
+            "timeZone": "America/Lima"
+          }
+        },
+        "country": "pe",
+        "_country": {
+          "name": "Perú",
+          "country_code": "pe",
+          "country_calling_code": 51,
+          "nationality": null,
+          "phone_available": true,
+          "icon_file": null
+        },
+        "photo_file": null,
+        "created_at": 1546471456000,
+        "banner_file": null,
+        "building_file": {
+          "id": "fi_cMfmScGRsWKdujxW",
+          "file_type": "location_photo",
+          "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+          "creation_date": 1566235558000
+        },
+        "common_stock": 0,
+        "soon": false,
+        "floors": null,
+        "problem_types": null
+      },
+      "image_file": {
+        "id": "fi_RDfwgTqd6TWuiSuK",
+        "file_type": "room_photo",
+        "key": "j.cedron@comunal.co/fu_vRVFu4N7EQhHjD7j",
+        "creation_date": 1556211697000
+      },
+      "features": [],
+      "code": null,
+      "created_at": 1546471985000,
+      "is_flexible": true,
+      "is_public": true,
+      "business": {
+        "country": null,
+        "id": "kpmg",
+        "name": "KPMG",
+        "logo_file": null,
+        "banner_file": null,
+        "document_type": null,
+        "document_number": null,
+        "customer_responsible": null,
+        "created_at": null,
+        "seats_used": null,
+        "invites_sent": null,
+        "responsible_id": null,
+        "additional_business_perk_detail": [],
+        "comunal_product": null,
+        "branches_locations_amount": null,
+        "branches_locations": null,
+        "business_type": null,
+        "metrics_url": null
+      }
+    },
+    "customer": {
+      "country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "reservationId": null,
+      "active": true,
+      "id": "cu_gRLQTb3HmxUcGo0Y",
+      "name": "Lizet",
+      "email_address": "lvalfaro@kpmg.com",
+      "last_name": "Alfaro",
+      "mobile_number": "981051386",
+      "birthday_date": 891493200000,
+      "can_book": true,
+      "photo_file_id": {
+        "id": "fi_740cwg3AnbYTx2hM",
+        "file_type": "customer_photo",
+        "key": "us_Y8BSzCl6CBKTxbtK/fu_UacpOfaD298i3Oiw",
+        "creation_date": 1578347625000
+      },
+      "business": {
+        "country": {
+          "name": "Perú",
+          "country_code": "pe",
+          "country_calling_code": 51,
+          "nationality": null,
+          "phone_available": true,
+          "icon_file": null
+        },
+        "id": "kpmg",
+        "name": "KPMG",
+        "logo_file": null,
+        "banner_file": null,
+        "document_type": {
+          "id": "ruc_pe",
+          "name": "RUC"
+        },
+        "document_number": "20451603192",
+        "customer_responsible": {
+          "country": null,
+          "reservationId": null,
+          "active": null,
+          "id": "cus_thomas_davis",
+          "name": "Thomas",
+          "email_address": "tdavisz@kpmg.com",
+          "last_name": "Davis",
+          "can_book": null,
+          "photo_file_id": null,
+          "comunal_country": null,
+          "emergency_phone_country": null,
+          "emergency_phone_number": null,
+          "emergency_contact": null,
+          "google_synced": null,
+          "google_email": null,
+          "has_full_mobility": null,
+          "membership": null,
+          "user_role": null,
+          "reservation_space": null,
+          "business_has_branch": null,
+          "has_logged_in": null,
+          "is_active": null,
+          "comunal_position": null,
+          "has_vaccine_record": null
+        },
+        "legal_name": "KPMG ASESORES S. CIVIL DE R. L. y  CAIPO Y ASOCIADOS S. CIVIL DE R.L.",
+        "location": {
+          "city": {
+            "name": "Lima",
+            "timeZone": "America/Lima"
+          },
+          "translations": [],
+          "id": "lo_ALbnXaaV4ccOYJ3A",
+          "short_name": "KPMG",
+          "description": null,
+          "name": "KPMG",
+          "friendly_url": null,
+          "meta_description": null,
+          "meta_title": null,
+          "geo": {
+            "address": "Av. Javier Prado Este Nº 444",
+            "longitude": -77.0286172,
+            "latitude": -12.0915944
+          },
+          "district": "San Isidro",
+          "_district": {
+            "id": "san-isidro",
+            "name": "San Isidro"
+          },
+          "province": null,
+          "_province": {
+            "id": 1,
+            "name": "Lima",
+            "department": {
+              "id": 1,
+              "name": "Lima",
+              "country": {
+                "id": 1,
+                "name": "Perú",
+                "countryCode": "pe",
+                "nationality": null,
+                "phoneAvailable": true,
+                "countryCallingCode": 51,
+                "file": null,
+                "countryEmailSubjectModel": {
+                  "id": 1,
+                  "subject": "Bienvenido a Comunal"
+                },
+                "comunal": true
+              },
+              "timeZone": "America/Lima"
+            }
+          },
+          "country": "pe",
+          "_country": {
+            "name": "Perú",
+            "country_code": "pe",
+            "country_calling_code": 51,
+            "nationality": null,
+            "phone_available": true,
+            "icon_file": null
+          },
+          "photo_file": null,
+          "created_at": 1546471456000,
+          "banner_file": null,
+          "building_file": {
+            "id": "fi_cMfmScGRsWKdujxW",
+            "file_type": "location_photo",
+            "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+            "creation_date": 1566235558000
+          },
+          "common_stock": 0,
+          "soon": false,
+          "floors": null,
+          "problem_types": null
+        },
+        "room_hours": 0.0,
+        "room_hours_used": 324.0,
+        "pages_black_white": 0,
+        "pages_black_white_used": 0,
+        "pages_color": 0,
+        "pages_color_used": 0,
+        "created_at": 1546471377000,
+        "seats_used": null,
+        "invites_sent": null,
+        "responsible_id": null,
+        "additional_business_perk_detail": [],
+        "comunal_product": {
+          "name": "Enterprise",
+          "id": "cp_2",
+          "business_type_parent_id": 2
+        },
+        "branches_locations_amount": null,
+        "branches_locations": null,
+        "room_hours_general": 0.0,
+        "pages_black_white_general": 0,
+        "pages_color_general": 0,
+        "business_type": {
+          "id": 2,
+          "name": "Enterprise",
+          "value": "enterprise"
+        },
+        "metrics_url": null
+      },
+      "user_id": "us_Y8BSzCl6CBKTxbtK",
+      "created_at": 1562357445000,
+      "phone_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "comunal_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "emergency_phone_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "emergency_phone_number": null,
+      "emergency_contact": null,
+      "google_synced": null,
+      "google_email": null,
+      "has_full_mobility": false,
+      "membership": null,
+      "user_role": {
+        "id": "3",
+        "name": "Colaborador",
+        "value": "default",
+        "role_type": "Comunero"
+      },
+      "reservation_space": null,
+      "business_has_branch": null,
+      "has_logged_in": 1639587073000,
+      "is_active": true,
+      "comunal_position": null,
+      "has_vaccine_record": null
+    },
+    "starts_at": 1641821400000,
+    "ends_at": 1641857400000,
+    "meeting_title": "Reunión - Vanessa Ladrón",
+    "description": null,
+    "recurrence_group": "re_ZKgxqsgd7k5apfoD",
+    "created_at": 1640636061000,
+    "parking_state": {
+      "id": "not_requested",
+      "name": "No solicitado"
+    },
+    "parking_lots": 0,
+    "parking_lots_requested": 0,
+    "outlook_event_id": null,
+    "metadata": null
+  },
+  {
+    "id": "rr_lPlNVNPiwGuInqpL",
+    "secret": false,
+    "internal": null,
+    "created": true,
+    "deleted": false,
+    "room": {
+      "public": true,
+      "flexible": true,
+      "id": "room_kpmg_23",
+      "name": "Directorio",
+      "capacity": 10,
+      "floor": 27,
+      "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+      "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+      "location": {
+        "city": {
+          "name": "Lima",
+          "timeZone": "America/Lima"
+        },
+        "translations": [],
+        "id": "lo_ALbnXaaV4ccOYJ3A",
+        "short_name": "KPMG",
+        "description": null,
+        "name": "KPMG",
+        "friendly_url": null,
+        "meta_description": null,
+        "meta_title": null,
+        "geo": {
+          "address": "Av. Javier Prado Este Nº 444",
+          "longitude": -77.0286172,
+          "latitude": -12.0915944
+        },
+        "district": "San Isidro",
+        "_district": {
+          "id": "san-isidro",
+          "name": "San Isidro"
+        },
+        "province": null,
+        "_province": {
+          "id": 1,
+          "name": "Lima",
+          "department": {
+            "id": 1,
+            "name": "Lima",
+            "country": {
+              "id": 1,
+              "name": "Perú",
+              "countryCode": "pe",
+              "nationality": null,
+              "phoneAvailable": true,
+              "countryCallingCode": 51,
+              "file": null,
+              "countryEmailSubjectModel": {
+                "id": 1,
+                "subject": "Bienvenido a Comunal"
+              },
+              "comunal": true
+            },
+            "timeZone": "America/Lima"
+          }
+        },
+        "country": "pe",
+        "_country": {
+          "name": "Perú",
+          "country_code": "pe",
+          "country_calling_code": 51,
+          "nationality": null,
+          "phone_available": true,
+          "icon_file": null
+        },
+        "photo_file": null,
+        "created_at": 1546471456000,
+        "banner_file": null,
+        "building_file": {
+          "id": "fi_cMfmScGRsWKdujxW",
+          "file_type": "location_photo",
+          "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+          "creation_date": 1566235558000
+        },
+        "common_stock": 0,
+        "soon": false,
+        "floors": null,
+        "problem_types": null
+      },
+      "image_file": {
+        "id": "fi_XYRLs4kiB0vN6odW",
+        "file_type": "room_photo",
+        "key": "j.cedron@comunal.co/fu_QNTwyPzFRMRe9Qnl",
+        "creation_date": 1556212256000
+      },
+      "features": [],
+      "code": null,
+      "created_at": 1546471985000,
+      "is_flexible": true,
+      "is_public": true,
+      "business": {
+        "country": null,
+        "id": "kpmg",
+        "name": "KPMG",
+        "logo_file": null,
+        "banner_file": null,
+        "document_type": null,
+        "document_number": null,
+        "customer_responsible": null,
+        "created_at": null,
+        "seats_used": null,
+        "invites_sent": null,
+        "responsible_id": null,
+        "additional_business_perk_detail": [],
+        "comunal_product": null,
+        "branches_locations_amount": null,
+        "branches_locations": null,
+        "business_type": null,
+        "metrics_url": null
+      }
+    },
+    "customer": {
+      "country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "reservationId": null,
+      "active": true,
+      "id": "cus_ana_gallard",
+      "name": "Ana",
+      "email_address": "agallardo@kpmg.com",
+      "last_name": "Gallardo",
+      "mobile_number": "997311187",
+      "birthday_date": -135889200000,
+      "can_book": true,
+      "photo_file_id": null,
+      "business": {
+        "country": {
+          "name": "Perú",
+          "country_code": "pe",
+          "country_calling_code": 51,
+          "nationality": null,
+          "phone_available": true,
+          "icon_file": null
+        },
+        "id": "kpmg",
+        "name": "KPMG",
+        "logo_file": null,
+        "banner_file": null,
+        "document_type": {
+          "id": "ruc_pe",
+          "name": "RUC"
+        },
+        "document_number": "20451603192",
+        "customer_responsible": {
+          "country": null,
+          "reservationId": null,
+          "active": null,
+          "id": "cus_thomas_davis",
+          "name": "Thomas",
+          "email_address": "tdavisz@kpmg.com",
+          "last_name": "Davis",
+          "can_book": null,
+          "photo_file_id": null,
+          "comunal_country": null,
+          "emergency_phone_country": null,
+          "emergency_phone_number": null,
+          "emergency_contact": null,
+          "google_synced": null,
+          "google_email": null,
+          "has_full_mobility": null,
+          "membership": null,
+          "user_role": null,
+          "reservation_space": null,
+          "business_has_branch": null,
+          "has_logged_in": null,
+          "is_active": null,
+          "comunal_position": null,
+          "has_vaccine_record": null
+        },
+        "legal_name": "KPMG ASESORES S. CIVIL DE R. L. y  CAIPO Y ASOCIADOS S. CIVIL DE R.L.",
+        "location": {
+          "city": {
+            "name": "Lima",
+            "timeZone": "America/Lima"
+          },
+          "translations": [],
+          "id": "lo_ALbnXaaV4ccOYJ3A",
+          "short_name": "KPMG",
+          "description": null,
+          "name": "KPMG",
+          "friendly_url": null,
+          "meta_description": null,
+          "meta_title": null,
+          "geo": {
+            "address": "Av. Javier Prado Este Nº 444",
+            "longitude": -77.0286172,
+            "latitude": -12.0915944
+          },
+          "district": "San Isidro",
+          "_district": {
+            "id": "san-isidro",
+            "name": "San Isidro"
+          },
+          "province": null,
+          "_province": {
+            "id": 1,
+            "name": "Lima",
+            "department": {
+              "id": 1,
+              "name": "Lima",
+              "country": {
+                "id": 1,
+                "name": "Perú",
+                "countryCode": "pe",
+                "nationality": null,
+                "phoneAvailable": true,
+                "countryCallingCode": 51,
+                "file": null,
+                "countryEmailSubjectModel": {
+                  "id": 1,
+                  "subject": "Bienvenido a Comunal"
+                },
+                "comunal": true
+              },
+              "timeZone": "America/Lima"
+            }
+          },
+          "country": "pe",
+          "_country": {
+            "name": "Perú",
+            "country_code": "pe",
+            "country_calling_code": 51,
+            "nationality": null,
+            "phone_available": true,
+            "icon_file": null
+          },
+          "photo_file": null,
+          "created_at": 1546471456000,
+          "banner_file": null,
+          "building_file": {
+            "id": "fi_cMfmScGRsWKdujxW",
+            "file_type": "location_photo",
+            "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+            "creation_date": 1566235558000
+          },
+          "common_stock": 0,
+          "soon": false,
+          "floors": null,
+          "problem_types": null
+        },
+        "room_hours": 0.0,
+        "room_hours_used": 324.0,
+        "pages_black_white": 0,
+        "pages_black_white_used": 0,
+        "pages_color": 0,
+        "pages_color_used": 0,
+        "created_at": 1546471377000,
+        "seats_used": null,
+        "invites_sent": null,
+        "responsible_id": null,
+        "additional_business_perk_detail": [],
+        "comunal_product": {
+          "name": "Enterprise",
+          "id": "cp_2",
+          "business_type_parent_id": 2
+        },
+        "branches_locations_amount": null,
+        "branches_locations": null,
+        "room_hours_general": 0.0,
+        "pages_black_white_general": 0,
+        "pages_color_general": 0,
+        "business_type": {
+          "id": 2,
+          "name": "Enterprise",
+          "value": "enterprise"
+        },
+        "metrics_url": null
+      },
+      "user_id": "agallardo@kpmg.com",
+      "created_at": 1546603561000,
+      "phone_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "comunal_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "emergency_phone_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "emergency_phone_number": null,
+      "emergency_contact": null,
+      "google_synced": null,
+      "google_email": null,
+      "has_full_mobility": null,
+      "membership": null,
+      "user_role": {
+        "id": "2",
+        "name": "Administrador",
+        "value": "administrator",
+        "role_type": "Comunero"
+      },
+      "reservation_space": null,
+      "business_has_branch": null,
+      "has_logged_in": 1641836214000,
+      "is_active": true,
+      "comunal_position": null,
+      "has_vaccine_record": null
+    },
+    "starts_at": 1641837600000,
+    "ends_at": 1641852000000,
+    "meeting_title": "Reunión SP y PICs",
+    "description": "Almuerzo, Oscar, Mariano, María Julia y Cristian",
+    "recurrence_group": null,
+    "created_at": 1641768979000,
+    "parking_state": {
+      "id": "not_requested",
+      "name": "No solicitado"
+    },
+    "parking_lots": 0,
+    "parking_lots_requested": 0,
+    "outlook_event_id": null,
+    "metadata": null
+  },
+  {
+    "id": "rr_O0KgnTFtxlCJcooT",
+    "secret": false,
+    "internal": null,
+    "created": true,
+    "deleted": false,
+    "room": {
+      "public": true,
+      "flexible": true,
+      "id": "room_kpmg_15",
+      "name": "Sala 4",
+      "capacity": 4,
+      "floor": 27,
+      "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+      "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+      "location": {
+        "city": {
+          "name": "Lima",
+          "timeZone": "America/Lima"
+        },
+        "translations": [],
+        "id": "lo_ALbnXaaV4ccOYJ3A",
+        "short_name": "KPMG",
+        "description": null,
+        "name": "KPMG",
+        "friendly_url": null,
+        "meta_description": null,
+        "meta_title": null,
+        "geo": {
+          "address": "Av. Javier Prado Este Nº 444",
+          "longitude": -77.0286172,
+          "latitude": -12.0915944
+        },
+        "district": "San Isidro",
+        "_district": {
+          "id": "san-isidro",
+          "name": "San Isidro"
+        },
+        "province": null,
+        "_province": {
+          "id": 1,
+          "name": "Lima",
+          "department": {
+            "id": 1,
+            "name": "Lima",
+            "country": {
+              "id": 1,
+              "name": "Perú",
+              "countryCode": "pe",
+              "nationality": null,
+              "phoneAvailable": true,
+              "countryCallingCode": 51,
+              "file": null,
+              "countryEmailSubjectModel": {
+                "id": 1,
+                "subject": "Bienvenido a Comunal"
+              },
+              "comunal": true
+            },
+            "timeZone": "America/Lima"
+          }
+        },
+        "country": "pe",
+        "_country": {
+          "name": "Perú",
+          "country_code": "pe",
+          "country_calling_code": 51,
+          "nationality": null,
+          "phone_available": true,
+          "icon_file": null
+        },
+        "photo_file": null,
+        "created_at": 1546471456000,
+        "banner_file": null,
+        "building_file": {
+          "id": "fi_cMfmScGRsWKdujxW",
+          "file_type": "location_photo",
+          "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+          "creation_date": 1566235558000
+        },
+        "common_stock": 0,
+        "soon": false,
+        "floors": null,
+        "problem_types": null
+      },
+      "image_file": {
+        "id": "fi_IbUYNaGISfSvTTm9",
+        "file_type": "room_photo",
+        "key": "j.cedron@comunal.co/fu_zMXyYVreAStdfnsg",
+        "creation_date": 1556212341000
+      },
+      "features": [],
+      "code": null,
+      "created_at": 1546471985000,
+      "is_flexible": true,
+      "is_public": true,
+      "business": {
+        "country": null,
+        "id": "kpmg",
+        "name": "KPMG",
+        "logo_file": null,
+        "banner_file": null,
+        "document_type": null,
+        "document_number": null,
+        "customer_responsible": null,
+        "created_at": null,
+        "seats_used": null,
+        "invites_sent": null,
+        "responsible_id": null,
+        "additional_business_perk_detail": [],
+        "comunal_product": null,
+        "branches_locations_amount": null,
+        "branches_locations": null,
+        "business_type": null,
+        "metrics_url": null
+      }
+    },
+    "customer": {
+      "country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "reservationId": null,
+      "active": true,
+      "id": "cu_Vi43ZraljQjBu1BN",
+      "name": "Estefanía",
+      "email_address": "ebportal@kpmg.com",
+      "last_name": "Portal",
+      "mobile_number": "997422071",
+      "birthday_date": 787467600000,
+      "can_book": true,
+      "photo_file_id": {
+        "id": "fi_gmKxmcpVUkOPUCrm",
+        "file_type": "customer_photo",
+        "key": "us_jp3ATCpfk7cQsAE5/fu_ovxo9a7EVz6iJA16",
+        "creation_date": 1557269040000
+      },
+      "business": {
+        "country": {
+          "name": "Perú",
+          "country_code": "pe",
+          "country_calling_code": 51,
+          "nationality": null,
+          "phone_available": true,
+          "icon_file": null
+        },
+        "id": "kpmg",
+        "name": "KPMG",
+        "logo_file": null,
+        "banner_file": null,
+        "document_type": {
+          "id": "ruc_pe",
+          "name": "RUC"
+        },
+        "document_number": "20451603192",
+        "customer_responsible": {
+          "country": null,
+          "reservationId": null,
+          "active": null,
+          "id": "cus_thomas_davis",
+          "name": "Thomas",
+          "email_address": "tdavisz@kpmg.com",
+          "last_name": "Davis",
+          "can_book": null,
+          "photo_file_id": null,
+          "comunal_country": null,
+          "emergency_phone_country": null,
+          "emergency_phone_number": null,
+          "emergency_contact": null,
+          "google_synced": null,
+          "google_email": null,
+          "has_full_mobility": null,
+          "membership": null,
+          "user_role": null,
+          "reservation_space": null,
+          "business_has_branch": null,
+          "has_logged_in": null,
+          "is_active": null,
+          "comunal_position": null,
+          "has_vaccine_record": null
+        },
+        "legal_name": "KPMG ASESORES S. CIVIL DE R. L. y  CAIPO Y ASOCIADOS S. CIVIL DE R.L.",
+        "location": {
+          "city": {
+            "name": "Lima",
+            "timeZone": "America/Lima"
+          },
+          "translations": [],
+          "id": "lo_ALbnXaaV4ccOYJ3A",
+          "short_name": "KPMG",
+          "description": null,
+          "name": "KPMG",
+          "friendly_url": null,
+          "meta_description": null,
+          "meta_title": null,
+          "geo": {
+            "address": "Av. Javier Prado Este Nº 444",
+            "longitude": -77.0286172,
+            "latitude": -12.0915944
+          },
+          "district": "San Isidro",
+          "_district": {
+            "id": "san-isidro",
+            "name": "San Isidro"
+          },
+          "province": null,
+          "_province": {
+            "id": 1,
+            "name": "Lima",
+            "department": {
+              "id": 1,
+              "name": "Lima",
+              "country": {
+                "id": 1,
+                "name": "Perú",
+                "countryCode": "pe",
+                "nationality": null,
+                "phoneAvailable": true,
+                "countryCallingCode": 51,
+                "file": null,
+                "countryEmailSubjectModel": {
+                  "id": 1,
+                  "subject": "Bienvenido a Comunal"
+                },
+                "comunal": true
+              },
+              "timeZone": "America/Lima"
+            }
+          },
+          "country": "pe",
+          "_country": {
+            "name": "Perú",
+            "country_code": "pe",
+            "country_calling_code": 51,
+            "nationality": null,
+            "phone_available": true,
+            "icon_file": null
+          },
+          "photo_file": null,
+          "created_at": 1546471456000,
+          "banner_file": null,
+          "building_file": {
+            "id": "fi_cMfmScGRsWKdujxW",
+            "file_type": "location_photo",
+            "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+            "creation_date": 1566235558000
+          },
+          "common_stock": 0,
+          "soon": false,
+          "floors": null,
+          "problem_types": null
+        },
+        "room_hours": 0.0,
+        "room_hours_used": 324.0,
+        "pages_black_white": 0,
+        "pages_black_white_used": 0,
+        "pages_color": 0,
+        "pages_color_used": 0,
+        "created_at": 1546471377000,
+        "seats_used": null,
+        "invites_sent": null,
+        "responsible_id": null,
+        "additional_business_perk_detail": [],
+        "comunal_product": {
+          "name": "Enterprise",
+          "id": "cp_2",
+          "business_type_parent_id": 2
+        },
+        "branches_locations_amount": null,
+        "branches_locations": null,
+        "room_hours_general": 0.0,
+        "pages_black_white_general": 0,
+        "pages_color_general": 0,
+        "business_type": {
+          "id": 2,
+          "name": "Enterprise",
+          "value": "enterprise"
+        },
+        "metrics_url": null
+      },
+      "user_id": "us_jp3ATCpfk7cQsAE5",
+      "created_at": 1557268857000,
+      "phone_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "comunal_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "emergency_phone_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "emergency_phone_number": null,
+      "emergency_contact": null,
+      "google_synced": null,
+      "google_email": null,
+      "has_full_mobility": null,
+      "membership": null,
+      "user_role": {
+        "id": "2",
+        "name": "Administrador",
+        "value": "administrator",
+        "role_type": "Comunero"
+      },
+      "reservation_space": null,
+      "business_has_branch": null,
+      "has_logged_in": 1641915113000,
+      "is_active": true,
+      "comunal_position": null,
+      "has_vaccine_record": null
+    },
+    "starts_at": 1641839400000,
+    "ends_at": 1641843000000,
+    "meeting_title": "Magaly Horqque",
+    "description": null,
+    "recurrence_group": null,
+    "created_at": 1641828902000,
+    "parking_state": {
+      "id": "not_requested",
+      "name": "No solicitado"
+    },
+    "parking_lots": 0,
+    "parking_lots_requested": 0,
+    "outlook_event_id": null,
+    "metadata": null
+  }]

@@ -1,35 +1,33 @@
 <template>
-  <div class="calendar-grid-rooms-list">
+  <div class="calendar-grid-rooms-lists calendar-grid-left">
     <div
       class="calendar-grid-content-rooms"
+      v-for="(room, index) in rooms"
+      :key="index"
       :data-room-id="room.id"
-      :id="'room-' + room.id"
+      :id="'room-list-' + room.id"
     >
       <div
-        class="calendar-grid-content-reservations"
-        :style="{ width: widthCellReservations + 'px' }"
+        class="calendar-grid-content-list-room"
+        :style="{ height: minHeight + 'px' }"
+        :title="'Sala de billar'"
       >
-        <CalendarGridReservation
-          v-for="(reservation, index) in reservations"
-          :key="index"
-          :reservation="reservation"
-          :style="{ height: minHeight - 5 + 'px' }"
-        />
+        <div class="room-info room-detail">
+          <div class="room-info-type">
+            <img
+              src="@/assets/ic_type_room_co.png"
+              alt="Capacity"
+              class="ico"
+            />
+            Sala de reunión
+          </div>
+          <div class="room-info-name">{{ room.name }}</div>
+          <div class="room-info-capacity">
+            <img src="@/assets/ic_capacity_co.png" alt="Capacity" class="ico" />
+            {{ room.capacity }}
+          </div>
+        </div>
       </div>
-      <div
-        class="calendar-grid-content-room hour hour-room"
-        v-for="(hour, index) in HoursRanges"
-        :key="index"
-        :data-time-start="hour.time"
-        :data-time-end="
-          HoursRanges[index + 1] ? HoursRanges[index + 1].time : ''
-        "
-        :data-hour="hour.hour"
-        :style="{
-          height: minHeight + 'px',
-          flex: '0 0 ' + widthCell / 2 + 'px',
-        }"
-      ></div>
     </div>
   </div>
 </template>
@@ -37,7 +35,8 @@
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 import { DateTime, Duration } from "ts-luxon";
-import CalendarGridReservation from "@/components/Calendar/CalendarGridReservation.vue";
+import CalendarGridReservation from "@/components/Calendar/CalendarGridReservationItem.vue";
+
 @Component({
   components: { CalendarGridReservation },
 })
@@ -48,10 +47,15 @@ export default class CalendarGridRoom extends Vue {
     },
   })
   dateStart!: any;
-  @Prop({ default: {} }) room!: any;
+  @Prop({ default: {} }) rooms!: any;
   @Prop({ default: 70 }) minHeight!: number;
   @Prop({ default: 100 }) widthCell!: number;
-  @Prop({ default: [] }) private reservations!: Array<any>;
+  @Prop({
+    default: () => {
+      return [];
+    },
+  })
+  private reservations!: Array<any>;
 
   dateNow = DateTime.now().setLocale("es").setZone("America/Lima");
   widthCellReservations = (24 - this.dateStart.hour) * this.widthCell - 4;

@@ -1,0 +1,1223 @@
+[
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_35",
+    "name": "SUM 2",
+    "capacity": 10,
+    "floor": 2,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_UmFXKoDhMqMFDkaS",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_bV7Ei0Tbw2DGTrum",
+      "creation_date": 1551210771000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_34",
+    "name": "SUM 1",
+    "capacity": 28,
+    "floor": 2,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_UmFXKoDhMqMFDkaS",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_bV7Ei0Tbw2DGTrum",
+      "creation_date": 1551210771000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_31",
+    "name": "Sala A",
+    "capacity": 2,
+    "floor": 27,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_vnCvAe2R0Gfb9NNf",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_IeFtay57RaGpBEAJ",
+      "creation_date": 1556230241000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_24",
+    "name": "Sala 5",
+    "capacity": 3,
+    "floor": 27,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_JRPzat3P4VDXXzq8",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_8PRblhlIAOX9LVqw",
+      "creation_date": 1556211731000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_23",
+    "name": "Directorio",
+    "capacity": 10,
+    "floor": 27,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_XYRLs4kiB0vN6odW",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_QNTwyPzFRMRe9Qnl",
+      "creation_date": 1556212256000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_21",
+    "name": "Innovation",
+    "capacity": 6,
+    "floor": 27,
+    "description": "Piensa fuera de la caja en un lugar cómodo y relax. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Piensa fuera de la caja en un lugar cómodo y relax. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_dL6QeQSRYvF6kE66",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_idsOJrku9a8hPQR8",
+      "creation_date": 1556230145000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_16",
+    "name": "Sala 3",
+    "capacity": 3,
+    "floor": 27,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_ERk3SPgmx4maHERN",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_qhLIMrbUXjK18A1L",
+      "creation_date": 1556212399000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_15",
+    "name": "Sala 4",
+    "capacity": 4,
+    "floor": 27,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_IbUYNaGISfSvTTm9",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_zMXyYVreAStdfnsg",
+      "creation_date": 1556212341000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_14",
+    "name": "Sala 2",
+    "capacity": 5,
+    "floor": 27,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_jctp3uqoanorozrB",
+      "file_type": "room_photo",
+      "key": "us_gq7AyGZJbpprFLjx/fu_IrIWAkKOffbuUr26",
+      "creation_date": 1634675789000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_11",
+    "name": "Sala 1",
+    "capacity": 4,
+    "floor": 26,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_RDfwgTqd6TWuiSuK",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_vRVFu4N7EQhHjD7j",
+      "creation_date": 1556211697000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  },
+  {
+    "public": true,
+    "flexible": true,
+    "id": "room_kpmg_01",
+    "name": "Sala 1",
+    "capacity": 4,
+    "floor": 24,
+    "description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. Podrás cancelar tu reserva de sala con una hora de anticipación y para modificar el horario deberás contactarte con tu office manager.",
+    "external_description": "Esta sala esta totalmente equipada para una reunión de trabajo. El café, té y agua son bienvenidos en todas nuestras salas de reuniones. No se permiten cancelaciones.",
+    "location": {
+      "city": {
+        "name": "Lima",
+        "timeZone": "America/Lima"
+      },
+      "translations": [],
+      "id": "lo_ALbnXaaV4ccOYJ3A",
+      "short_name": "KPMG",
+      "description": null,
+      "name": "KPMG",
+      "friendly_url": null,
+      "meta_description": null,
+      "meta_title": null,
+      "geo": {
+        "address": "Av. Javier Prado Este Nº 444",
+        "longitude": -77.0286172,
+        "latitude": -12.0915944
+      },
+      "district": "San Isidro",
+      "_district": {
+        "id": "san-isidro",
+        "name": "San Isidro"
+      },
+      "province": null,
+      "_province": {
+        "id": 1,
+        "name": "Lima",
+        "department": {
+          "id": 1,
+          "name": "Lima",
+          "country": {
+            "id": 1,
+            "name": "Perú",
+            "countryCode": "pe",
+            "nationality": null,
+            "phoneAvailable": true,
+            "countryCallingCode": 51,
+            "file": null,
+            "countryEmailSubjectModel": {
+              "id": 1,
+              "subject": "Bienvenido a Comunal"
+            },
+            "comunal": true
+          },
+          "timeZone": "America/Lima"
+        }
+      },
+      "country": "pe",
+      "_country": {
+        "name": "Perú",
+        "country_code": "pe",
+        "country_calling_code": 51,
+        "nationality": null,
+        "phone_available": true,
+        "icon_file": null
+      },
+      "photo_file": null,
+      "created_at": 1546471456000,
+      "banner_file": null,
+      "building_file": {
+        "id": "fi_cMfmScGRsWKdujxW",
+        "file_type": "location_photo",
+        "key": "j.cedron@comunal.co/fu_cFUIRiwnoz7Ol13f",
+        "creation_date": 1566235558000
+      },
+      "common_stock": 0,
+      "soon": false,
+      "floors": null,
+      "problem_types": null
+    },
+    "image_file": {
+      "id": "fi_vpRdh24JLcXP46KU",
+      "file_type": "room_photo",
+      "key": "j.cedron@comunal.co/fu_ICyeqx5MHqmHt3tg",
+      "creation_date": 1556211490000
+    },
+    "features": [],
+    "code": null,
+    "created_at": 1546471985000,
+    "is_flexible": true,
+    "is_public": true,
+    "business": {
+      "country": null,
+      "id": "kpmg",
+      "name": "KPMG",
+      "logo_file": null,
+      "banner_file": null,
+      "document_type": null,
+      "document_number": null,
+      "customer_responsible": null,
+      "created_at": null,
+      "seats_used": null,
+      "invites_sent": null,
+      "responsible_id": null,
+      "additional_business_perk_detail": [],
+      "comunal_product": null,
+      "branches_locations_amount": null,
+      "branches_locations": null,
+      "business_type": null,
+      "metrics_url": null
+    }
+  }
+]
