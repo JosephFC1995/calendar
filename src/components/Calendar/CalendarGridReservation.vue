@@ -243,7 +243,7 @@ export default class CalendarGridReservation extends Vue {
       newBooking.id = "movingBooking";
       newBooking.starts_at = newStartDate.toMillis();
       newBooking.ends_at = newStartDate.toMillis() + diffDates;
-      newBooking.room.id = this.getRoomByPy(movePixelY + 20);
+      newBooking.room.id = this.getRoomByPy(movePixelY);
 
       if (this.isMovingBookingOverlapping(newBooking)) {
         return;

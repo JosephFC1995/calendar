@@ -7,7 +7,7 @@
       :widthCell="120"
       :reservations="reservations"
       :reservationNew.sync="reservationNew"
-      :dateSelected="dateSelected"
+      :date="dateSelected"
       @reservationMove="onReservationMove"
       @reservationResize="onReservationResize"
     />
